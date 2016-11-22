@@ -4,6 +4,7 @@ tap 'homebrew/bundle'
 tap 'homebrew/core'
 tap 'homebrew/fuse'
 tap 'homebrew/services'
+tap 'homebrew/versions'
 tap 'rcmdnk/file'
 cask 'java'
 cask 'osxfuse'
@@ -13,16 +14,17 @@ brew 'awscli'
 brew 'bash-completion'
 brew 'bash-git-prompt'
 brew 'boost'
+brew 'gettext'
+brew 'pcre'
+brew 'git'
 brew 'go'
 brew 'docker'
 brew 'docker-machine', restart_service: true
 brew 'libyaml'
 brew 'docker-compose'
 brew 'gdbm'
-brew 'gettext'
 brew 'git-flow'
 brew 'libffi'
-brew 'pcre'
 brew 'pkg-config'
 brew 'glib'
 brew 'htop'
@@ -38,13 +40,13 @@ brew 'python'
 brew 'mercurial'
 brew 'mycli'
 brew 'mysql', restart_service: true
+brew 'openssl@1.1'
 brew 'nginx'
 brew 'nmap'
 brew 'node'
 brew 'nodebrew'
 brew 'postgresql'
 brew 'pyenv'
-brew 'qt'
 brew 'ruby-build'
 brew 'rbenv'
 brew 'source-highlight'
@@ -55,18 +57,19 @@ brew 'homebrew/fuse/sshfs'
 cask 'clipy'
 cask 'cyberduck'
 cask 'firefoxdeveloperedition'
+cask 'google-japanese-ime'
 cask 'google-play-music-desktop-player'
+cask 'iterm2'
 cask 'java7'
 cask 'mysqlworkbench'
 cask 'rubymine'
 cask 'slack'
-cask 'sshfs'
 cask 'virtualbox'
-mas 'PhotoScapeX', id: 929507092
 mas 'Kobito', id: 896624060
 mas 'iMovie', id: 408981434
-mas 'Pages', id: 409201541
 mas 'GarageBand', id: 682658836
-mas 'Keynote', id: 409183694
 mas 'Bear', id: 1091189122
+mas 'Keynote', id: 409183694
+mas 'Pages', id: 409201541
+mas 'Xcode', id: 497799835
 mas 'Numbers', id: 409203825
