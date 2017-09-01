@@ -142,6 +142,7 @@ brew 'openssl@1.1'
 brew 'libffi'
 brew 'readline'
 brew 'atk'
+brew 'ghq'
 brew 'docker'
 brew 'rbenv'
 
