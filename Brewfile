@@ -13,6 +13,7 @@ brew 'awscli'
 brew 'bash'
 brew 'bash-completion@2'
 brew 'bash-git-prompt'
+brew 'bitwarden-cli'
 brew 'boost'
 brew 'cairo'
 brew 'carthage'
@@ -58,6 +59,7 @@ brew 'jetty'
 brew 'jpeg'
 brew 'jpegoptim'
 brew 'jq'
+brew 'json-c'
 brew 'kubernetes-helm'
 brew 'lame'
 brew 'libcroco'
@@ -74,6 +76,7 @@ brew 'libtiff'
 brew 'libtool'
 brew 'libunistring'
 brew 'libyaml'
+brew 'libyubikey'
 brew 'lv'
 brew 'makedepend'
 brew 'mas'
@@ -97,6 +100,7 @@ brew 'optipng'
 brew 'packer'
 brew 'pango'
 brew 'pcre'
+brew 'pcre2'
 brew 'peco'
 brew 'pgcli'
 brew 'phantomjs'
@@ -122,6 +126,7 @@ brew 'speedtest-cli'
 brew 'sphinx-doc'
 brew 'sqlite'
 brew 'sshfs'
+brew 'stern'
 brew 'swagger-codegen'
 brew 'teensy_loader_cli'
 brew 'terminal-notifier'
@@ -165,20 +170,19 @@ cask 'google-drive-file-stream'
 cask 'gyazo'
 cask 'hyperswitch'
 cask 'insomniax'
-cask 'java'
-cask 'marp'
+cask 'jasper'
+cask 'macdown'
 cask 'mysqlworkbench'
 cask 'ngrok'
 cask 'owasp-zap'
 cask 'postman'
 cask 'rubymine'
-cask 'shiba'
-cask 'skype'
-cask 'smcfancontrol'
-cask 'thunderbird'
-cask 'virtualbox'
-cask 'vlc'
-cask 'zeplin'
+cask 'sketch'
+cask 'slack'
+cask 'teensy'
+cask 'tripmode'
+cask 'visual-studio-code'
+cask 'xquartz'
 
 tap 'argon/mas'
 
@@ -193,8 +197,12 @@ brew 'pet'
 tap 'rcmdnk/file'
 brew 'brew-file'
 
+tap 'thoughtbot/formulae'
+brew 'rcm'
+
 # Other Homebrew packages
 brew 'chromedriver'
+brew 'yubikey-personalization'
 
 # Other Cask applications
 cask 'boostnote'
@@ -209,7 +217,7 @@ cask 'google-play-music-desktop-player'
 cask 'hammerspoon'
 cask 'insomnia'
 cask 'iterm2'
-cask 'macdown'
+cask 'java'
 cask 'meld'
 cask 'mongo-management-studio'
 cask 'nanowallet'
@@ -217,22 +225,22 @@ cask 'osxfuse'
 cask 'pocket-casts'
 cask 'rdm'
 cask 'sequel-pro'
-cask 'sketch'
-cask 'slack'
-cask 'teensy'
-cask 'tripmode'
-cask 'visual-studio-code'
-cask 'xquartz'
+cask 'skype'
+cask 'smcfancontrol'
+cask 'thunderbird'
+cask 'virtualbox'
+cask 'vlc'
+cask 'zeplin'
 
 # App Store applications
-mas '1Password (6.8.8)', id: 443987910
-mas 'AnyDo (3.2.1)', id: 944960179
-mas 'Divergence-Clock (1.0.2)', id: 945818720
-mas 'Gapplin (1.3.1)', id: 768053424
-mas 'Go for Twitter (1.4.1)', id: 991672828
-mas 'JustFocus (1.6.1)', id: 1142151959
-mas 'Keynote (8.1)', id: 409183694
-mas 'LINE (5.8.0)', id: 539883307
-mas 'Magnet (2.1.0)', id: 441258766
-mas 'Slack (3.2.0)', id: 803453959
-mas 'Table Tool (1.2.1)', id: 1122008420
+mas '1Password', id: id:
+mas 'AnyDo', id: id:
+mas 'Divergence-Clock', id: id:
+mas 'Gapplin', id: id:
+mas 'Go', id: Twitter
+mas 'JustFocus', id: id:
+mas 'Keynote', id: id:
+mas 'LINE', id: id:
+mas 'Magnet', id: id:
+mas 'Slack', id: id:
+mas 'Table', id: (1.2.1)',
