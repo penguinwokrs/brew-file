@@ -15,13 +15,11 @@ brew 'bash-completion@2'
 brew 'bash-git-prompt'
 brew 'bitwarden-cli'
 brew 'boost'
-brew 'cairo'
 brew 'carthage'
 brew 'coreutils'
 brew 'direnv'
 brew 'elasticsearch'
 brew 'envchain'
-brew 'ffmpeg'
 brew 'fontconfig'
 brew 'freetype'
 brew 'fribidi'
@@ -210,21 +208,17 @@ brew 'yubikey-personalization'
 cask 'boostnote'
 cask 'clipy'
 cask 'cyberduck'
-cask 'firefox'
 cask 'geektool'
 cask 'gimp'
-cask 'google-drive-file-stream'
 cask 'google-play-music-desktop-player'
 cask 'hammerspoon'
 cask 'insomnia'
 cask 'iterm2'
 cask 'java'
-cask 'mongo-management-studio'
 cask 'nanowallet'
 cask 'osxfuse'
 cask 'pocket-casts'
 cask 'rdm'
-cask 'sequel-pro'
 cask 'skype'
 cask 'smcfancontrol'
 cask 'teensy'
@@ -233,14 +227,6 @@ cask 'visual-studio-code'
 cask 'xquartz'
 
 # App Store applications
-mas '1Password', id: id:
-mas 'AnyDo', id: id:
-mas 'Divergence-Clock', id: id:
-mas 'Gapplin', id: id:
 mas 'Go', id: Twitter
-mas 'JustFocus', id: id:
-mas 'Keynote', id: id:
 mas 'LINE', id: id:
 mas 'Magnet', id: id:
-mas 'Slack', id: id:
-mas 'Table', id: (1.2.1)',
